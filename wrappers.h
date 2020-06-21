@@ -18,6 +18,7 @@
 #define WRAPPERS_H
 
 /* cfree wraps free to fix https://github.com/crawshaw/sqlite/issues/60 */
+
 void cfree(void *p);
 
 int c_strm_w_tramp(void*, const void*, int);
